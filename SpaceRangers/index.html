@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space ranger</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Orbitron:wght@400;900&family=ZCOOL+KuaiLe&family=Zen+Dots&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        canvas{
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div style="display:none;">
+        <img id="bg" src="./img/bg.png"/>
+        <img id="bg-menu-ship" src="./img/spritesheet_menu.png"/>
+        <img id="bg-menu" src="./img/bg_menu.jpg"/>
+        <img id="bg-menu-planet" src="./img/planet.png"/>
+        <img id="asteroid_1" src="./img/asteroid_1.png"/>
+        <img id="asteroid_2" src="./img/asteroid_2.png"/>
+        <img id="asteroid_3" src="./img/asteroid_3.png"/>
+        <img id="asteroid_4" src="./img/asteroid_4.png"/>
+        <img id="bullet" src="./img/bullet.png"/>
+        <img id="exp" src="./img/exp.png"/>
+        <img id="exp2" src="./img/exp2.png"/>
+        <img id="exp3" src="./img/exp3.png"/>
+        <img id="exp4" src="./img/exp4.png"/>
+        <img id="player" src="./img/ship.png"/>
+        <img id="flame" src="./img/flame_x.png"/>
+        <img id="flame-menu" src="./img/flame_menu.png"/>
+        <img id="over" src="./img/over.jpg"/>
+
+        <img id="hud" src="./img/hud.png"/>
+
+        <audio id="music" loop>
+            <source src="./sound/bg.mp3" type="audio/mp3">
+        </audio>
+        <audio id="game-over">
+            <source src="./sound/gameOver.mp3" type="audio/mp3">
+        </audio>
+        <audio id="menu-music">
+            <source src="./sound/menu.mp3" type="audio/mp3">
+        </audio>
+        <audio id="menu-select">
+            <source src="./sound/select.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <script src="/js/app.js" type="module"></script>
+</body>
+</html>
