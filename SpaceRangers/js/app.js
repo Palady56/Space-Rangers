@@ -51,20 +51,11 @@ class App {
     }
     start() {
         let fps = 60,
-            // interval = 1000 / fps,
-            // delta = 0,
             dt = 0;
 
         let frame = (timestamp) => {
             requestAnimationFrame(frame);
             dt = timestamp - dt
-            // if (delta > interval) {
-            //     this.update(delta);
-            //     this.render(delta);
-            //     delta = 0;
-            // }else{
-            //     delta += dt
-            // }
             this.update(dt);
             this.render(dt);
 
