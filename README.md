@@ -24,7 +24,7 @@ To run the game locally:
 3. Open `index.html` in your preferred browser.
 ### or
 
-You can go to the website and try the game: `https://spacer-rangers.netlify.app/`
+You can go to the website and try the game: https://spacer-rangers.netlify.app/
 
 ## How to Play
 
