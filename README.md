@@ -8,9 +8,6 @@
 - [How to Play](#how-to-play)
 - [Features](#features)
 - [Controls](#controls)
-- [Assets](#assets)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
 
