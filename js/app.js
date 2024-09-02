@@ -10,7 +10,7 @@ class App {
         this.setScene(IntroScene);
         this.start();
         this.score = 0
-        this.authorText = 'Design by Palady'
+        this.authorText = 'Designed by Palady'
         this.fcf = 1000 / 60  // frame carrier frequency
     }
 
